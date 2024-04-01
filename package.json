@@ -1,0 +1,17 @@
+{
+  "name": "npm-module-with-postinstall",
+  "version": "1.0.0",
+  "main":"index.js",
+  "scripts": {
+    "postinstall": "node 1.js"
+  },
+  "dependencies": {
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
